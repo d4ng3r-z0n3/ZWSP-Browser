@@ -38,7 +38,7 @@ Contributions to ZWSP Browser are welcome! If you encounter any issues, have sug
 
 ## Acknowledgements
 
-ZWSP Browser was created by [Your Name] as a personal project. It builds upon the powerful features of the PyQt5 library and leverages the web browsing capabilities provided by the Qt WebEngine module.
+ZWSP Browser was created by õÕ as a personal project. It builds upon the powerful features of the PyQt5 library and leverages the web browsing capabilities provided by the Qt WebEngine module.
 
 ## Contact
 
