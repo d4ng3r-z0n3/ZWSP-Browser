@@ -23,7 +23,7 @@ pip install pyqt5 pyqtwebengine
 To run ZWSP Browser, execute the following command:
 
 ```bash
-python browser.py
+python ZWSPBrowser.pyw
 ```
 
 The browser window will open, and you can start browsing by entering URLs in the address bar or using the navigation buttons. To detect and decode ZWSP characters, simply load a web page containing hidden messages. The decoded messages will be saved as HTML files and opened in the browser for easy viewing.
