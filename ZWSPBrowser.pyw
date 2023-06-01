@@ -147,12 +147,17 @@ class MainWindow(QMainWindow):
         # Convert each 8-bit segment to its ASCII character representation
         decoded_message = ''.join([chr(int(segment, 2)) for segment in binary_segments])
 
-        # Save the decoded message to an HTML file
-        with open("decoded_message.html", "w") as file:
+        # Get the original HTML file name without extension
+        original_filename = os.path.splitext(self.browser.url().fileName())[0]
+        # Append "decoded_" to the original filename
+        decoded_filename = "d3c0d3d_" + original_filename + ".html"
+
+        # Save the decoded message to a new HTML file
+        with open(decoded_filename, "w") as file:
             file.write(decoded_message)
 
-        # Open the HTML file in the Python web browser
-        local_url = QUrl.fromLocalFile(os.path.abspath("decoded_message.html"))
+        # Open the new HTML file in the Python web browser
+        local_url = QUrl.fromLocalFile(os.path.abspath(decoded_filename))
         self.browser.load(local_url)
 
     def check_content_process_termination(self, progress):
@@ -176,4 +181,3 @@ window = MainWindow()
 
 # Start the event loop
 sys.exit(app.exec_())
-
