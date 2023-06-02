@@ -42,6 +42,6 @@ ZWSP Browser was created by õÕ as a personal project. It builds upon the power
 
 ## Contact
 
-For any inquiries or questions regarding ZWSP Browser, please contact [Your Name] at [your-email@example.com].
+For any inquiries or questions regarding ZWSP Browser, please contact õÕ.
 
 Happy browsing and decoding ZWSP characters!
