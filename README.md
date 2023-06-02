@@ -11,7 +11,7 @@ ZWSP Browser is a simple web browser built using PyQt5 that allows you to browse
 - **Title update:** The browser window title is updated with the current page's title.
 - **ZWSP detection and decoding:** ZWSP Browser can detect zero-width characters in the loaded web page's body text and decode them to reveal hidden messages.
 - **HTML rendering:** Decoded messages are saved as HTML files and opened in the browser for easy viewing.
-- **Windows executable (zwsp-browser.exe):** You can now run ZWSP Browser as a standalone Windows executable by simply double-clicking on `zwsp-browser.exe`. 
+- **Windows executable (ZWSP-Browser.exe):** You can now run ZWSP Browser as a standalone Windows executable by simply double-clicking on `zwsp-browser.exe`. 
 
 ## Installation
 
