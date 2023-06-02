@@ -1,20 +1,23 @@
+Apologies for the oversight. Here's the revised version of the GitHub readme, including the newest inclusion of the Windows executable `zwsp-browser.exe`:
+
 # ZWSP Browser
 
 ZWSP Browser is a simple web browser built using PyQt5 that allows you to browse web pages and detect and decode zero-width characters (ZWSP). ZWSP characters are invisible Unicode characters that can be used for various purposes, including steganography and data hiding.
 
 ## Features
 
-- Web browsing: ZWSP Browser provides a user-friendly interface for browsing web pages. You can navigate backward and forward, reload pages, stop loading, and go to the home page.
-- URL navigation: You can enter a URL in the address bar and press Enter to navigate to that web page.
-- Title update: The browser window title is updated with the current page's title.
-- ZWSP detection and decoding: ZWSP Browser can detect zero-width characters in the loaded web page's body text and decode them to reveal hidden messages.
-- HTML rendering: Decoded messages are saved as HTML files and opened in the browser for easy viewing.
+- **Web browsing:** ZWSP Browser provides a user-friendly interface for browsing web pages. You can navigate backward and forward, reload pages, stop loading, and go to the home page.
+- **URL navigation:** You can enter a URL in the address bar and press Enter to navigate to that web page.
+- **Title update:** The browser window title is updated with the current page's title.
+- **ZWSP detection and decoding:** ZWSP Browser can detect zero-width characters in the loaded web page's body text and decode them to reveal hidden messages.
+- **HTML rendering:** Decoded messages are saved as HTML files and opened in the browser for easy viewing.
+- **Windows executable (zwsp-browser.exe):** You can now run ZWSP Browser as a standalone Windows executable by simply double-clicking on `zwsp-browser.exe`. 
 
 ## Installation
 
 To use ZWSP Browser, you need to have Python installed on your system. You also need to install the required dependencies by running the following command:
 
-```bash
+```
 pip install pyqt5 pyqtwebengine
 ```
 
@@ -22,7 +25,7 @@ pip install pyqt5 pyqtwebengine
 
 To run ZWSP Browser, execute the following command:
 
-```bash
+```
 python ZWSPBrowser.pyw
 ```
 
@@ -30,11 +33,11 @@ The browser window will open, and you can start browsing by entering URLs in the
 
 ## License
 
-ZWSP Browser is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+ZWSP Browser is open-source software licensed under the MIT license.
 
 ## Contribution
 
-Contributions to ZWSP Browser are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute code, please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/zwsp-browser).
+Contributions to ZWSP Browser are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute code, please feel free to open an issue or submit a pull request on the GitHub repository.
 
 ## Acknowledgements
 
