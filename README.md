@@ -1,5 +1,3 @@
-Apologies for the oversight. Here's the revised version of the GitHub readme, including the newest inclusion of the Windows executable `zwsp-browser.exe`:
-
 # ZWSP Browser
 
 ZWSP Browser is a simple web browser built using PyQt5 that allows you to browse web pages and detect and decode zero-width characters (ZWSP). ZWSP characters are invisible Unicode characters that can be used for various purposes, including steganography and data hiding.
